@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "ONE SHINHAN BOLD";
+  src: url("../assets/fonts/ONESHINHANBOLD.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: "ONE SHINHAN MEDIUM";
+  src: url("../assets/fonts/ONESHINHANMEDIUM.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: "ONE SHINHAN LIGHT";
+  src: url("../assets/fonts/ONESHINHANLIGHT.TTF") format("truetype");
+}
+body {
+  background-color: #fafafa;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  font-family: "ONE SHINHAN LIGHT";
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
